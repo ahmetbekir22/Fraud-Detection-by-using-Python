@@ -8,7 +8,7 @@ it offers valuable insights into the election's fairness and accuracy.
 ı have also add some sample image of graphics.
 
 Some information about libraries:
-ı used njumpy and pandas library to manipulate data.
+ı used numpy and pandas library to manipulate data.
 ı used sys library because it allows the script to take input parameters, such as the filename and list of nominees, directly from the command line when it's executed.
 ı used matplotlib for creating various types of plots and graphs to visualize and analyze the election data, making the results more accessible and informative.
 
