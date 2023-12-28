@@ -1,4 +1,4 @@
-# Fraud-Detection-by-usinh-Python
+# Fraud-Detection-by-using-Python
 Fraud Detection in Presidential Election of USA in 2012
 
 This Python project is dedicated to the in-depth analysis of the 2012 US Presidential Election data. 
