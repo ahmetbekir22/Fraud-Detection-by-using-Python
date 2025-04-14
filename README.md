@@ -1,18 +1,36 @@
-# Fraud-Detection-by-using-Python
-Fraud Detection in Presidential Election of USA in 2012
+# 🗳️ Fraud Detection in the 2012 U.S. Presidential Election Using Python
 
-This Python project is dedicated to the in-depth analysis of the 2012 US Presidential Election data. 
-By visualizing the vote counts, percentages, and examining the distribution of least significant digits,
-this project aims to determine the integrity of the election results. Using a variety of statistical tools and visualizations,
-it offers valuable insights into the election's fairness and accuracy. 
-ı have also add some sample image of graphics.
+This Python project investigates the integrity of the **2012 United States Presidential Election** using statistical analysis and data visualization techniques. By examining vote counts, percentages, and the distribution of **least significant digits**, we aim to uncover any anomalies that might indicate electoral fraud or inconsistencies.
 
-Some information about libraries:
-ı used numpy and pandas library to manipulate data.
-ı used sys library because it allows the script to take input parameters, such as the filename and list of nominees, directly from the command line when it's executed.
-ı used matplotlib for creating various types of plots and graphs to visualize and analyze the election data, making the results more accessible and informative.
 
-to execute code here is sample command:
-python main.py ElectionUSA2012.csv Obama Romnay Johnson Stein
-Thanks to dynamic code even we chahge the order of names code will work properly.
+---
 
+## 🎯 Project Objective
+
+The core goal of this project is to:
+- Analyze the **vote distribution** per nominee.
+- Visualize results with insightful plots.
+- Apply **digit analysis** to spot potential red flags in the vote counts.
+- Provide an accessible yet statistically sound interpretation of the election's fairness.
+
+---
+
+## 🧰 Tech Stack & Libraries
+
+This project leverages the power of Python and the following libraries:
+
+- **`numpy`** – Numerical operations and digit-based analysis.
+- **`pandas`** – Data handling and manipulation.
+- **`matplotlib`** – Data visualization.
+- **`sys`** – Command-line argument parsing for dynamic input.
+
+---
+
+## 🚀 How to Run the Project
+
+Ensure Python is installed on your system.
+
+Then run the script with:
+
+```bash
+python main.py ElectionUSA2012.csv Obama Romney Johnson Stein
